@@ -1,16 +1,26 @@
 ## Hi there 👋
 
-<!--
-**yasuzaki-ibuki/yasuzaki-ibuki** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Linuxサーバーの構築・運用を中心に、インフラエンジニアを目指して学習しています。
+前職では発電設備のトラブル対応と報告書作成を担当しており、
+その経験を活かして「障害の切り分け・原因特定・記録」を大切にしています。
 
-Here are some ideas to get you started:
+### 資格
+- LPIC
+- CCNA
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 主な成果物
+- [linux-server-portfolio](https://github.com/yasuzaki-ibuki/linux-server-portfolio)
+  VirtualBox上のRocky Linux 9に、Nginx・Webアプリ・監視(LINE通知)・作業記録アプリを構築。
+  SELinuxはEnforcingのまま運用し、構築中に発生した障害の調査・対処も記録しています。
+
+### 使用している技術
+- OS:Rocky Linux 9
+- Web:Nginx、Flask、gunicorn
+- 運用:systemd(service / timer)、firewalld、SELinux、chrony、journald
+- DB:SQLite
+- その他:Git / GitHub、Python
+
+### 今後の予定
+- データベース(バックアップ・復元)を使ったアプリの構築
+- Ansibleによる構築の自動化
+- AWS上への構築
