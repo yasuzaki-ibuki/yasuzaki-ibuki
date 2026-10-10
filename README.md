@@ -12,11 +12,14 @@ Linuxサーバーの構築・運用を中心に、インフラエンジニアを
 - [linux-server-portfolio](https://github.com/yasuzaki-ibuki/linux-server-portfolio)
   VirtualBox上のRocky Linux 9に、Nginx・Webアプリ・監視(LINE通知)・作業記録アプリを構築。
   SELinuxはEnforcingのまま運用し、構築中に発生した障害の調査・対処も記録しています。
+- [リポジトリ名](https://github.com/yasuzaki-ibuki/リポジトリ名)
+  (このリポジトリで実際にやったことを1〜2行で)
 
 ### 使用している技術
-- OS:Rocky Linux 9
+- OS:Rocky Linux 9、Windows Server
 - Web:Nginx、Flask、gunicorn
 - 運用:systemd(service / timer)、firewalld、SELinux、chrony、journald
+- Windows:Active Directory、PowerShell
 - DB:SQLite
 - その他:Git / GitHub、Python
 
