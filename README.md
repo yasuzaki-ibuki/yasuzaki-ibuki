@@ -13,7 +13,7 @@ Linuxサーバーの構築・運用を中心に、インフラエンジニアを
   VirtualBox上のRocky Linux 9に、Nginx・Webアプリ・監視(LINE通知)・作業記録アプリを構築。
   SELinuxはEnforcingのまま運用し、構築中に発生した障害の調査・対処も記録しています。
 
-- [windows-ad-lab](https://github.com/yasuzaki-ibuki/windows-ad-lab)
+- [Windows-admin-report](https://github.com/yasuzaki-ibuki/Windows-admin-report)
   VirtualBox上のWindows Server 2025(評価版)に、PowerShellでAD DSを導入しドメイン(lab.local)を構築。
   PC情報・パッチ・ローカルユーザー・管理者グループをCSV出力する点検スクリプトを作成し、エラーの原因と対処も記録しています。
 
